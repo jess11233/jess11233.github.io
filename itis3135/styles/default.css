@@ -1,10 +1,11 @@
 body {
     background-color: #eb889e;
-    color: #ece9ea;
     font-family: Arial, sans-serif;
+    color: 	#fcd8c5;
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
+
 .centered-image {
     display: block;
     margin: 0 auto;
@@ -12,6 +13,7 @@ body {
 }
 p {
     text-align: center;
+    font-size: medium;
 }
 
 footer {
@@ -24,8 +26,9 @@ footer {
 
 h1, h2 {
     text-align: center;
-    color: white; 
+    color: #f3692f;
     margin: 20px 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 nav > a {
