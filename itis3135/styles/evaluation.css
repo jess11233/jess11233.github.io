@@ -1,0 +1,40 @@
+body {
+    background-color: #eb889e;
+    font-family: Arial, sans-serif;
+    color: 	#fcd8c5;
+    margin: 0;
+    padding: 50px;
+}
+
+
+p {
+    font-size: medium;
+    color: whitesmoke
+}
+
+
+h1 {
+    text-align: center;
+    color: #f3692f;
+    margin: 20px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+h2 {
+    color: #b85cdd
+}
+
+nav > a {
+    color: lightskyblue;
+}
+nav {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+
+li {
+    font-weight: normal;
+    font-size: medium;
+    color: whitesmoke;
+}

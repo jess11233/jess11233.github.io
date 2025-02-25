@@ -14,6 +14,7 @@ body {
 p {
     text-align: center;
     font-size: medium;
+    color: whitesmoke
 }
 
 footer {
@@ -54,6 +55,11 @@ a#validation-button-css img {
     max-width: 100px;
     height: auto;
     border: none;
+}
+li {
+    font-weight: normal;
+    font-size: medium;
+    color: whitesmoke;
 }
 @media (max-width: 768px) {
     main {
