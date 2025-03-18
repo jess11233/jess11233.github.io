@@ -50,6 +50,7 @@
             border: 5px solid #fe6287; /* Outline with a color matching your theme */
             display: block; /* Ensures the image is treated as a block element */
             margin: 0 auto; /* Centers the image */
+            box-sizing: border-box; 
             }
 
             figcaption {
@@ -68,12 +69,13 @@
         </style>
 
         <script>
-    function showSection(sectionId) {
-        document.querySelectorAll('.section').forEach(section => {
-            section.style.display = 'none';
-        });
-        document.getElementById(sectionId).style.display = 'block';
+    function showSection(sectionId) { 
+    document.querySelectorAll('.section').forEach((section) => {
+        section.style.display = 'none';
+    });
+    document.getElementById(sectionId).style.display = 'block';
     }
+
     </script>
 
     </head>
@@ -135,10 +137,10 @@
 
 
                 <figure>
-                    <img src="imagess/Gemini_Generated_Image_6a1pqi6a1pqi6a1p.jpg" alt="What">
+                    <img src="imagess/Gemini_Generated_Image_6a1pqi6a1pqi6a1p (1).jpg" alt="What">
                     <figcaption>This image is showing you the different forms of dance.</figcaption>
                 </figure>
-                <p><em>Image of classical dancing.</em></p>
+                <p><em>AI Prompt: "A photorealistic image of a person doing classical dancing" </em></p>
             </section>
         
             <section id="who" class="section">
@@ -189,6 +191,7 @@
                     <img src="imagess/Gemini_Generated_Image_ebcncbebcncbebcn.jpg" alt="Dancing in the moring">
                     <figcaption>An image of someone dancing in the morning.</figcaption>
                 </figure>
+                <p><em>AI Prompt: "A photorealistic image of a person dancing in the morning." </em></p>
             </section>
         
             <section id="where" class="section">
@@ -215,6 +218,7 @@
                     <img src="imagess/Gemini_Generated_Image_yl76agyl76agyl76.jpg" alt="People socializing through dancing">
                     <figcaption>This image reflects how dancing is a social activity.</figcaption>
                 </figure>
+                <p><em>AI Prompt: "A photorealistic image of a couple people dancing at a get-together." </em></p>
             </section>
         
             <section id="how" class="section">
@@ -246,6 +250,7 @@
                     <img src="imagess/Gemini_Generated_Image_9sbf459sbf459sbf.jpg" alt="image of how to start dancing">
                     <figcaption>People dancing together professionally.</figcaption>
                 </figure>
+                <p><em>AI Prompt: "A photorealistic image of a group of people dancing together professionally on stage" </em></p>
             </section>
         
             <section id="why" class="section">
@@ -282,27 +287,30 @@
                 <figure>
                     <img src="imagess/Gemini_Generated_Image_i1to7vi1to7vi1to.jpg" alt="Benefits of dancing">
                     <figcaption>This image reflects the mental health benefits of dancing.</figcaption>
+
                 </figure>
+                <p><em>AI Prompt: "A photorealistic image of a people talking together at a dance class." </em></p>
             </section>
         
             <section id="ai-prompts" class="section">
                 <h2>AI Prompts Used</h2>
                 <p><strong>These are the AI prompts I used to generate/make this page:</strong></p>
                 <ul>
-                    <li><strong>Important note:</strong>I added my code and then asked these prompts and I used chatgpt to help me.</li>
                     <li>Can you make me different section using javascript</li>
                     <li>How so I make the sections hidden in the starting page</li>
                     <li>can you make me a bullet point of different types of dancing styles in code</li>
                     <li>can you make a heading for the top sections and when you hover over them they be a different color</li>
                     <li>what do I need to add to make my p not so close to the edge</li>
                     <li>How do I make my images the same size and a reasonable size and can you also make them centered and outlined</li>
+                    <li><strong>Important note:</strong> I added my code and then asked these prompts and I used chatgpt to help me.</li>
+                    <li><strong>Important note:</strong> All the images beside the ones in the about me section is AI generated images from Gemini</li>
                 </ul>
                 
             </section>
         </main>
 
             <footer>
-                <p>Designed by <a href= SchefersSolutions.co/index.html>Schefers Solutions</a></p>
+                <p>Designed by <a href="https://jess11233.github.io/itis3135/SchefersSolutions.co/index.html" target="_blank">Schefers Solutions</a></p>
             </footer>
         
             
