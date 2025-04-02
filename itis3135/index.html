@@ -9,20 +9,22 @@
         <link rel="stylesheet" href="styles/default.css">
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
     </head>
+
     <body>
-        <h1>Jesse Schefers | ITIS 3135 Homepage now with Accumulus</h1>
-        <img src="images/20240723_192948.jpg" alt="Hi my name is Jesse and this my webpage for itis3135" class="centered-image" width="300">
+        
+        <header>
+           
+            
+            <div data-include="components/header.html"></div>
+            
+        </header>
         <main>
             <h2>
                 Welcome to my 3135 coursepage!
             </h2>
             <p class="indented-text">Please look around my webpage: </p>
-            <nav>
-                <a href="introduction.html">Introduction Page </a>
-                <a href="contract.html">Contract Page </a>
-                <a href="evaluation.html">evaluation Page </a>
-               
-            </nav>
+            
+       
         </main>
         <script>
             document.getElementById("validation-button-html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
@@ -30,26 +32,10 @@
             
         </script>
         <footer>
-            <nav>
-                <a href="https://webpages.charlotte.edu/jschefer/" target="_blank">Charlotte Webpages </a>
-                <a href="https://github.com/jess11233" target="_blank">GitHub </a>
-                <a href="https://jess11233.github.io/itis3135/" target="_blank">Github.io </a>
-                <a href="https://www.freecodecamp.org/Jschefers" target="_blank">FreeCodeCamp </a>
-                <a href="https://www.codecademy.com/profiles/board6825662150" target="_blank">Codecademy </a>
-                <a href="www.linkedin.com/in/jesseschefers" target="_blank">LinkedIn </a>
-                <a href="stuff/CRAPPY webpaGe.html">CRAPPY webpaGe</a>
-                <a href="https://jess11233.github.io/jazzyseahorse/" target="_blank">Jazzy Seahorse </a>
-                <a href="SchefersSolutions.co/index.html">Schefers Solutions </a>
-            </nav>
-            <p class="indented-text">Page Built By <a href="SchefersSolutions.co/index.html">  Schefers Solutions </a> &copy; 2025</p>
-            <a id="vaildation=button-html">
-                <img scr="" alt="html validation button">
-            </a>
-            <a id="validation-button-css">
-                <img scr="" alt="css validation button">
-            </a>
+            <div data-include="components/footer.html"></div>
+            
         </footer>
-
+        <script src="scripts/HTMLInclude.min.js"></script>
     </body>
    
 </html>

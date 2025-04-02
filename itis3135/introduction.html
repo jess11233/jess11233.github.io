@@ -9,18 +9,18 @@
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Introduction!</h1>
-        <nav>
-            <a href="index.html">Home Page |</a>
-            <a href="contract.html">Contract Page |</a>
-            <a href="evaluation.html">evaluation Page </a>
-        </nav>
+        <header>
+            <h1>Introduction!</h1>
+            <div data-include="components/header.html"></div>
+        </header>
+        
         <main>
             <section>
                 <h2>About Me</h2>
                 <p>Hi! My name is Jesse Schefers. I'm a third year in computer science student with a consentration in Information Technology.
                      I'm still kinda new to coding in HTML and CSS and I'm hoping this class will help improve my skills.</p>
-                     <img src="images/IMG_1600.jpg" alt="Hi this is a picure of me" class="centered-image" width="300">
+                     <img src="images/20240723_192948.jpg" alt="Hi my name is Jesse and this my introduction webpage for itis3135" class="centered-image" width="300">
+        <figcaption>Me and my little brother</figcaption>
             </section>
         
             <section>
@@ -52,7 +52,6 @@
             <section>
                 <h2>My Computer Setup</h2>
                 <p>I primarily use use my windows dell laptop for this class and that where I downloaded all the software for this course</p>
-                <img src="images/IMG_0506.jpg" alt="my amazing cat" class="centered-image" width="300" height="300">
             </section>
         
             <section>
@@ -60,8 +59,14 @@
                 <p>I love trying new foods and my current favorite food right now is papaya salad.
                 </p>
                 <img src="images/temp_image_63787430-4915-4CBA-9CE8-EB48944592D8.jpg" alt="funny image about eating" class="centered-image" width="300">
+                <figcaption>Fun picture about eating</figcaption>
             </section>
             
         </main>
+        <footer>
+            <div data-include="components/footer.html"></div>
+            
+        </footer>
+        <script src="scripts/HTMLInclude.min.js"></script>
     </body>
 </html>

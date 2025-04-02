@@ -44,18 +44,25 @@ img {
     width: 300px;
     height: auto; 
     border-radius: 20px; 
-    border: 3px solid white; 
+    /* border: 3px solid white; */
     box-shadow: 0 0 15px whitesmoke;
 }
 
-a#validation-button-html img,
+figcaption {
+    text-align: center;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+/*a#validation-button-html img,
 a#validation-button-css img {
     display: inline-block;
     margin: 5px;
     max-width: 100px;
     height: auto;
     border: none;
-}
+} */
+
 li {
     font-weight: normal;
     font-size: medium;
@@ -71,3 +78,25 @@ li {
         font-size: 0.9em;
     }
 }
+
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+  }
+
+  th {
+    background-color: black;
+  }
+
+  td:nth-child(3) { 
+    text-align: right; /* Align salary numbers to the right */
+  }
