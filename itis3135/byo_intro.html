@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    <title> Jesse Schefers | ITIS 3135 Homepage now with Accumulus</title>
+    <script src="scripts/survey.js"></script>
+    <link rel="stylesheet" href="styles/byo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    
+</head>
+<body>
+
+
+    <header>
+        <div data-include="components/header.html"></div>
+    </header>
+
+
+    <main>
+        <h2>Build Your Own Introduction Page</h2>
+        <h3>Time to BYO Intro page, please fill out the form below so we can create your own page</h3>
+        
+        <form id="introForm">
+            <label>First and last name: <input type="text" id="name" required />
+            </label><br />
+
+            <label>Animal with the same first letter of your name: <input type="text" id="mascot" required />
+            </label><br />
+
+            <label>Image of yourself: <input type="file" id="image" accept="image/png, image/jpeg" required />
+            </label><br />
+
+            <label>Image Caption: <input type="text" id="caption" required />
+            </label><br />
+
+            <label>Personal Background: <input type="text" id="personal" required />
+            </label><br />
+
+            <label>Professional Background: <input type="text" id="professional" required />
+            </label><br />
+
+            <label>Academic Background: <input type="text" id="academic" required />
+            </label><br />
+
+            <label>Background in Web Development: <input type="text" id="webdev" required />
+            </label><br />
+
+            <label>Primary Computer Platform: <input type="text" id="platform" required />
+            </label><br />
+      
+            <div id="courses">
+              <label>Courses Currently Taking:</label>
+              <div class="course-entry">
+                <input type="text" name="courses" class="course-box" />
+              </div>
+              <button type="button" onclick="addCourse()">Add Course</button>
+              <button type="button" onclick="removeCourse()">Remove Course</button>
+            </div><br />
+      
+            <label>Funny Thing?: <input type="text" id="funny" /></label><br />
+            <label>Anything Else?: <input type="text" id="other" /></label><br />
+      
+            <label>
+              <input type="checkbox" id="agree" required />
+              I understand that what is on this page is not password protected and I will not put anything here that I don’t want publicly available.
+            </label><br /><br />
+      
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+          </form>
+      
+          <div id="result"></div>
+        </main>
+      
+        <footer>
+            <div data-include="components/footer.html"></div>
+        </footer>
+        <script src="scripts/HTMLInclude.min.js"></script>
+        <script>includeHTML();</script>
+
+
+      </body>
+      </html>

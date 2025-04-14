@@ -38,3 +38,48 @@ li {
     font-size: medium;
     color: whitesmoke;
 }
+
+/* for activity 4 */
+@media (max-width: 768px) {
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    footer nav {
+        font-size: 0.9em;
+    }
+}
+
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Desktop / Large Screens */
+@media screen and (min-width: 981px) {
+    /* Optional styles for larger screens */
+}
+
+/* Tablets */
+@media screen and (min-width: 601px) and (max-width: 980px) {
+    main {
+        padding: 20px;
+    }
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
