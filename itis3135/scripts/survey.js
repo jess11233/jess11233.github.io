@@ -19,9 +19,11 @@ document.addEventListener("DOMContentLoaded", () => {
       const platform = document.getElementById("platform").value;
       const funny = document.getElementById("funny").value;
       const other = document.getElementById("other").value;
+      // where there was an error
       const courses = Array.from(document.getElementsByClassName("course-box"))
-                           .map(c => c.value)
-                           .filter(val => val.trim() !== "");
+  .map((c) => c.value)
+  .filter((val) => val.trim() !== "");
+
   
       const reader = new FileReader();
       reader.onload = () => {
@@ -38,7 +40,12 @@ document.addEventListener("DOMContentLoaded", () => {
             <p><strong>Academic Background:</strong> ${academic}</p>
             <p><strong>Web Development Experience:</strong> ${webdev}</p>
             <p><strong>Primary Computer Platform:</strong> ${platform}</p>
-            <p><strong>Courses Currently Taking:</strong><ul>${courses.map(c => `<li>${c}</li>`).join("")}</ul></p>
+            
+
+            <p><strong>Courses Currently Taking:</strong><ul>${courses.map((c) => `<li>${c}</li>`).join("")}</ul>
+</p>
+
+
             <p><strong>Funny Thing:</strong> ${funny}</p>
             <p><strong>Anything Else:</strong> ${other}</p>
             <button onclick="window.location.reload()">Reset and Start Over</button>
