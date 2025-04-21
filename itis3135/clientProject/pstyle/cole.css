@@ -2,7 +2,7 @@
 
 
 body {
-    background-color: 	#204864;
+    background-color: #204864;
     font-family: 'Roboto Slab', serif;
     color: #f1f4f5;
     margin: 0;
@@ -12,8 +12,9 @@ body {
 .centered-image {
     display: block;
     margin: 0 auto;
-    max-width: 100%; 
+    max-width: 100%;
 }
+
 p {
     text-align: left;
     font-size: medium;
@@ -29,7 +30,8 @@ footer {
     text-align: center;
 }
 
-h1, h2  {
+h1,
+h2 {
     text-align: center;
     color: #f1f4f5;
     margin: 20px 0;
@@ -39,13 +41,13 @@ h1, h2  {
 
 nav {
     display: flex;
-    justify-content: center; 
-    gap: 20px; 
+    justify-content: center;
+    gap: 20px;
 }
 
 nav a {
-    text-decoration: none; 
-    color: #738793; 
+    text-decoration: none;
+    color: #738793;
     font-weight: bold;
     padding: 10px 15px;
     border-radius: 5px;
@@ -53,7 +55,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #0c1e2b; 
+    background-color: #0c1e2b;
     color: white;
 }
 
@@ -69,6 +71,7 @@ nav a:hover {
         font-size: 0.9em;
     }
 }
+
 /* button style */
 .interest-container {
     display: flex;
@@ -79,14 +82,15 @@ nav a:hover {
     border-radius: 10px;
     margin: 2rem auto;
     max-width: 800px;
-  }
-  
-  .left-side, .right-side {
+}
+
+.left-side,
+.right-side {
     flex: 1;
     padding: 1rem;
-  }
-  
-  button {
+}
+
+button {
     display: block;
     margin: 1rem 0;
     padding: 0.75rem 1.25rem;
@@ -96,33 +100,33 @@ nav a:hover {
     background-color: #006699;
     color: white;
     cursor: pointer;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #1a3b56;
     transform: scale(1.03);
-  }
+}
 
-  /* comment section */
-  .comment-section {
+/* comment section */
+.comment-section {
     max-width: 500px;
     margin: 2rem auto;
     padding: 1rem;
     background-color: #f1f4f5;
     color: #204864;
     border-radius: 8px;
-  }
-  
-  #comment-input {
+}
+
+#comment-input {
     width: 100%;
     height: 100px;
     margin-top: 1rem;
     padding: 0.5rem;
     font-family: 'Roboto Slab', serif;
     font-size: 1rem;
-  }
-  
-  .comment-section button {
+}
+
+.comment-section button {
     margin-top: 0.5rem;
     padding: 0.5rem 1rem;
     background-color: #2e5d84;
@@ -130,53 +134,54 @@ nav a:hover {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  .comment-section button:hover {
+}
+
+.comment-section button:hover {
     background-color: #1a3b56;
-  }
-  
-  #comment-display {
+}
+
+#comment-display {
     margin-top: 1rem;
-  }
-  
-  .comment {
+}
+
+.comment {
     background-color: #e0e6ea;
     padding: 0.5rem;
     margin-bottom: 0.5rem;
     border-radius: 4px;
-  }
-  
-  /* tables */
-  .service-table {
+}
+
+/* tables */
+.service-table {
     width: 80%;
     margin: 2rem auto;
     border-collapse: collapse;
     font-family: 'Roboto Slab', serif;
     background-color: #f1f4f5;
     color: #204864;
-  }
-  
-  .service-table th, .service-table td {
+}
+
+.service-table th,
+.service-table td {
     padding: 12px;
     border: 1px solid #ccc;
     text-align: left;
-  }
-  
-  .service-table th {
+}
+
+.service-table th {
     background-color: #d3dee5;
     color: #204864;
-  }
-  
-  /* ranking */
-  #rankList {
+}
+
+/* ranking */
+#rankList {
     list-style: none;
     padding: 0;
     max-width: 600px;
     margin: 1rem auto;
-  }
-  
-  #rankList li {
+}
+
+#rankList li {
     background-color: #f1f4f5;
     color: #204864;
     font-family: 'Roboto Slab', serif;
@@ -184,9 +189,9 @@ nav a:hover {
     margin-bottom: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-  
-  #rankList button {
+}
+
+#rankList button {
     margin-left: 10px;
     padding: 4px 8px;
     background-color: #006699;
@@ -194,19 +199,18 @@ nav a:hover {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  #rankList button:hover {
+}
+
+#rankList button:hover {
     background-color: #004466;
-  }
-  
-  /* centering my imgs */
-  .centered-image {
+}
+
+/* centering my imgs */
+.centered-image {
     display: block;
     margin: 0 auto;
-    max-width: 100%; 
-    border-radius: 20px; 
-    border: 3px solid #738793; 
+    max-width: 100%;
+    border-radius: 20px;
+    border: 3px solid #738793;
     box-shadow: 0 0 15px #738793;
-  }
-  
+}
