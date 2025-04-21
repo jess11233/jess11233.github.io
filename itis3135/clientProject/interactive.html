@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+        <title> Jesse Schefers | Cole's project</title>
+        <link rel="stylesheet" href="pstyle/cole.css">
+        <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <header>
+            <h1>Interactive Learning Services Page</h1>
+            <h2><i><strong>Where business meets technology!</strong></i></h2>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="overview.html">Programming Language Overview</a>
+                <a href="interactive.html">Interactive Learning services</a>
+                <a href="examples.html">examples</a>
+            </nav>
+            </header>
+
+        <main>
+        <p>
+            Here at Cole's project we offer a range of interactive learning services to help you learn new programming languages and tools. 
+            Our services include tutorials, online courses, and hands-on projects that allow you to practice and apply the skills you learn.
+            We also offer a community forum where you can connect with other learners, share knowledge, and get help from experienced instructors.
+            </p>
+
+            <table class="service-table">
+                <thead>
+                  <tr>
+                    <th>Services</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Python for Business</td>
+                    <td>$30.00</td>
+                  </tr>
+                  <tr>
+                    <td>SQL for Data Analysis</td>
+                    <td>$20.00</td>
+                  </tr>
+                  <tr>
+                    <td>JavaScript for basic Front-end Development</td>
+                    <td>$25.00</td>
+                  </tr>
+                  <tr>
+                    <td>Tutoring Session (Meeting with a Professional)</td>
+                    <td>$15.00/hr</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h3>Rank Our Services</h3>
+              <ul id="rankList">
+                <li>
+                  Python for Business
+                  <button onclick="moveUp(this)">↑</button>
+                  <button onclick="moveDown(this)">↓</button>
+                </li>
+                <li>
+                  SQL for Data Analysis
+                  <button onclick="moveUp(this)">↑</button>
+                  <button onclick="moveDown(this)">↓</button>
+                </li>
+                <li>
+                  JavaScript for basic Front-end Development
+                  <button onclick="moveUp(this)">↑</button>
+                  <button onclick="moveDown(this)">↓</button>
+                </li>
+                <li>
+                  Tutoring Session
+                  <button onclick="moveUp(this)">↑</button>
+                  <button onclick="moveDown(this)">↓</button>
+                </li>
+              </ul>
+              
+              <button onclick="showRanking()">Submit Ranking</button>
+              <div id="rankingResult"></div>
+
+              <script src="js/rank.js"></script>
+              
+        </main>
+        
+        
+
+
+    </body>
+    </html>
