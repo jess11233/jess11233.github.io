@@ -32,14 +32,7 @@ nav > a {
     color: blue;
 }
 
-a#validation-button-html img,
-a#validation-button-css img {
-    display: inline-block;
-    margin: 5px;
-    max-width: 100px;
-    height: auto;
-    border: none;
-}
+
 @media (max-width: 768px) {
     main {
         margin: 10px;
