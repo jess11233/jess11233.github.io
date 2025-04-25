@@ -105,29 +105,7 @@ main {
     }
 }
 
-
-/* Table styles */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-  }
-
-  th, td {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: left;
-  }
-
-  th {
-    background-color: black;
-  }
-
-  td:nth-child(3) { 
-    text-align: right; /* Align salary numbers to the right */
-  }
-
-/* Slideshow container */
+/* Slideshow styles */
 .mySlides {
     display: none;
   }
