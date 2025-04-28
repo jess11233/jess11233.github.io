@@ -30,7 +30,8 @@
             We also offer a community forum where you can connect with other learners, share knowledge, and get help from experienced instructors.
             </p>
 
-            <table class="service-table">
+            
+            <table class="serviceTable">
                 <thead>
                   <tr>
                     <th>Services</th>
@@ -52,36 +53,37 @@
                   </tr>
                   <tr>
                     <td>Tutoring Session (Meeting with a Professional)</td>
-                    <td>$15.00/hr</td>
+                    <td>$15.00</td>
                   </tr>
                 </tbody>
               </table>
 
-              <h3>Rank Our Services</h3>
+              
+              <h3>Rank Our services please!</h3>
               <ul id="rankList">
                 <li>
                   Python for Business
-                  <button onclick="moveUp(this)">↑</button>
-                  <button onclick="moveDown(this)">↓</button>
+                  <button onclick="up(this)">⇑</button>
+                  <button onclick="down(this)">⇓</button>
                 </li>
                 <li>
                   SQL for Data Analysis
-                  <button onclick="moveUp(this)">↑</button>
-                  <button onclick="moveDown(this)">↓</button>
+                  <button onclick="up(this)">⇑</button>
+                  <button onclick="down(this)">⇓</button>
                 </li>
                 <li>
                   JavaScript for basic Front-end Development
-                  <button onclick="moveUp(this)">↑</button>
-                  <button onclick="moveDown(this)">↓</button>
+                  <button onclick="up(this)">⇑</button>
+                  <button onclick="down(this)">⇓</button>
                 </li>
                 <li>
                   Tutoring Session
-                  <button onclick="moveUp(this)">↑</button>
-                  <button onclick="moveDown(this)">↓</button>
+                  <button onclick="up(this)">⇑</button>
+                  <button onclick="down(this)">⇓</button>
                 </li>
               </ul>
               
-              <button onclick="showRanking()">Submit Ranking</button>
+              <button onclick="showRanking()">Submit</button>
               <div id="rankingResult"></div>
 
               <script src="js/rank.js"></script>
@@ -92,4 +94,4 @@
 
 
     </body>
-    </html>
+</html>

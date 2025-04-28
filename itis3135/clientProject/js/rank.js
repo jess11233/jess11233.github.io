@@ -1,12 +1,13 @@
-function moveUp(btn) {
+/* making the arrows go up and then down*/
+function up(btn) {
     const li = btn.parentElement;
-    const prev = li.previousElementSibling;
-    if (prev) {
-      li.parentElement.insertBefore(li, prev);
+    const past = li.previousElementSibling;
+    if (past) {
+      li.parentElement.insertBefore(li, past);
     }
   }
   
-  function moveDown(btn) {
+  function down(btn) {
     const li = btn.parentElement;
     const next = li.nextElementSibling;
     if (next) {
@@ -14,9 +15,10 @@ function moveUp(btn) {
     }
   }
   
+  /*showing the users its ranking*/
   function showRanking() {
     const items = document.querySelectorAll("#rankList li");
-    let result = "<h4>Your Ranking:</h4><ol>";
+    let result = "<h4> Thanks for the feedback </h4><ol>";
   
     items.forEach((item) => {
       const clone = item.cloneNode(true);

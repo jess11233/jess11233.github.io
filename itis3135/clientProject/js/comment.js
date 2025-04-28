@@ -1,12 +1,13 @@
+/* super simple comments */
 function addComment() {
-    const input = document.getElementById('comment-input');
-    const commentText = input.value.trim();
+    const input = document.getElementById('cInput');
+    const cText = input.value.trim();
   
-    if (commentText !== "") {
-      const commentDisplay = document.getElementById('comment-display');
+    if (cText !== "") {
+      const commentDisplay = document.getElementById('commentDisplay');
       const newComment = document.createElement('div');
       newComment.className = 'comment';
-      newComment.textContent = commentText;
+      newComment.textContent = cText;
       commentDisplay.appendChild(newComment);
       input.value = "";
     }

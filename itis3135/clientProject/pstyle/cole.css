@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
 
+/* The main style for all pages */
 body {
     background-color: #204864;
     font-family: 'Roboto Slab', serif;
@@ -21,22 +22,16 @@ p {
     padding: 10px 30px;
 }
 
-footer {
-    text-align: center;
-}
-
 .indented-text {
     text-align: center;
 }
 
-h1,
-h2 {
+h1, h2 {
     text-align: center;
     color: #f1f4f5;
     margin: 20px 0;
     font-family: 'Roboto Slab', serif;
 }
-
 
 nav {
     display: flex;
@@ -59,20 +54,17 @@ nav a:hover {
 }
 
 
-
+/* resizing  */
 @media (max-width: 768px) {
     main {
         margin: 10px;
         padding: 15px;
     }
 
-    footer nav {
-        font-size: 0.9em;
-    }
 }
 
-/* button style */
-.interest-container {
+/* button style (interested element) */
+.interestedPart {
     display: flex;
     justify-content: space-between;
     padding: 2rem;
@@ -83,8 +75,7 @@ nav a:hover {
     max-width: 800px;
 }
 
-.left-side,
-.right-side {
+.leftSide, .rightSide {
     flex: 1;
     padding: 1rem;
 }
@@ -107,7 +98,7 @@ button:hover {
 }
 
 /* comment section */
-.comment-section {
+.commentSection {
     max-width: 500px;
     margin: 2rem auto;
     padding: 1rem;
@@ -116,7 +107,7 @@ button:hover {
     border-radius: 8px;
 }
 
-#comment-input {
+#cInput {
     width: 100%;
     height: 100px;
     margin-top: 1rem;
@@ -125,7 +116,8 @@ button:hover {
     font-size: 1rem;
 }
 
-.comment-section button {
+/* resuing the button for consistency! */
+.commentSection button {
     margin-top: 0.5rem;
     padding: 0.5rem 1rem;
     background-color: #2e5d84;
@@ -135,11 +127,11 @@ button:hover {
     cursor: pointer;
 }
 
-.comment-section button:hover {
+.commentSection button:hover {
     background-color: #1a3b56;
 }
 
-#comment-display {
+#commentDisplay {
     margin-top: 1rem;
 }
 
@@ -151,7 +143,7 @@ button:hover {
 }
 
 /* tables */
-.service-table {
+.serviceTable {
     width: 80%;
     margin: 2rem auto;
     border-collapse: collapse;
@@ -160,27 +152,26 @@ button:hover {
     color: #204864;
 }
 
-.service-table th,
-.service-table td {
+.serviceTable th, .serviceTable td {
     padding: 12px;
     border: 1px solid #ccc;
     text-align: left;
 }
 
-.service-table th {
+.serviceTable th {
     background-color: #d3dee5;
     color: #204864;
 }
 
 /* ranking */
-#rankList {
+#ranking {
     list-style: none;
     padding: 0;
     max-width: 600px;
     margin: 1rem auto;
 }
 
-#rankList li {
+#ranking li {
     background-color: #f1f4f5;
     color: #204864;
     font-family: 'Roboto Slab', serif;
@@ -190,7 +181,7 @@ button:hover {
     border-radius: 5px;
 }
 
-#rankList button {
+#ranking button {
     margin-left: 10px;
     padding: 4px 8px;
     background-color: #006699;

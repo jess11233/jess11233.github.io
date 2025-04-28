@@ -1,12 +1,13 @@
-let yesCount = 0;
-let noCount = 0;
+let yes = 0;
+let no = 0;
 
+/* simeple js element */
 function vote(choice) {
   if (choice === 'yes') {
-    yesCount++;
-    document.getElementById('yes-count').textContent = yesCount;
+    yes++;
+    document.getElementById('yesCount').textContent = yes;
   } else if (choice === 'no') {
-    noCount++;
-    document.getElementById('no-count').textContent = noCount;
+    no++;
+    document.getElementById('noCount').textContent = no;
   }
 }
