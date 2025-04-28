@@ -19,7 +19,6 @@ function moveUp(btn) {
     let result = "<h4>Your Ranking:</h4><ol>";
   
     items.forEach((item) => {
-      // Clone the item and remove buttons before getting text
       const clone = item.cloneNode(true);
       clone.querySelectorAll("button").forEach((btn) => btn.remove());
       const text = clone.textContent.trim();
