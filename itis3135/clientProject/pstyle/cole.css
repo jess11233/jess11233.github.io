@@ -48,6 +48,12 @@ nav a {
     transition: 0.3s;
 }
 
+/* footer */
+a:link {
+    color: #738793;;
+  }
+  
+
 nav a:hover {
     background-color: #0c1e2b;
     color: white;
@@ -204,3 +210,5 @@ button:hover {
     border: 3px solid #738793;
     box-shadow: 0 0 15px #738793;
 }
+
+/* footer */
