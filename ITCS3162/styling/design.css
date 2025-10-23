@@ -1,6 +1,6 @@
 body {
     background-color: #a4c3b2;
-    font-family: Kavoon, sans-serif;
+    font-family: 'MuseoModerno';
     color: #f6fff8;
     margin: 0;
     padding: 20px;
@@ -53,7 +53,18 @@ nav a:hover {
   .about-text {
     background-color: #6b9080;
     padding: 20px;
-    border-radius: 15px; /* rounded rectangle */
+    border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     flex: 1; 
   }
+
+  .imageDetails{
+    border-radius: 25px;
+  }
+  img {
+    width: 500px;
+    height: auto; 
+    border-radius: 20px; 
+    border: 3px solid #6b9080; 
+    box-shadow: 0 0 15px #6b9080;
+}
