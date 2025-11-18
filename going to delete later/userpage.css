@@ -1,0 +1,81 @@
+body {
+  background-color: #AE9C8A;
+  font-family: 'MuseoModerno', sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #AE9C8A;
+  padding: 15px 40px;
+  border-bottom: 2px solid #6a4f39;
+}
+
+.homeButton a {
+  background-color: #F0EAD6;
+  color: #6a4f39;
+  font-weight: 800;
+  font-size: 1.8em;
+  border-radius: 15px;
+  padding: 10px 25px;
+  text-decoration: none;
+}
+
+.navLinks a {
+  color: #6B4B2E;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #F0EAD6;
+  border: 2px solid #ccc;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.navLinks a:hover {
+  background-color: #0c1e2b;
+  color: white;
+}
+
+.userOverview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.userProfile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #F0EAD6;
+  padding: 10px;
+}
+
+.userProfile h2 {
+  margin-top: 15px;
+  color: #6B4B2E;
+}
+
+.userSections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin-top: 3rem;
+  text-align: center;
+  gap: 2rem;
+}
+
+.sectionBox {
+  border-left: 2px solid #d4c2b1;
+  border-right: 2px solid #d4c2b1;
+}
+
+.sectionBox h3 {
+  color: #6B4B2E;
+  font-weight: 600;
+}
