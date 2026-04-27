@@ -255,3 +255,12 @@ nav ul a:hover {
 .project-card:hover {
   opacity: 0.85;
 }
+
+.project-section a {
+  color: #667B68;
+}
+
+.project-section a:hover {
+  color: #4a6550;
+  text-decoration: underline;
+}
