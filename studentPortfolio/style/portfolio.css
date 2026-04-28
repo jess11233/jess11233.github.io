@@ -7,7 +7,6 @@ body {
   color: #222;
 }
 
-/* NAV */
 nav {
   background-color: #667B68;
   display: flex;
@@ -40,7 +39,7 @@ nav ul a:hover {
   text-decoration: underline;
 }
 
-/* HOME */
+/* home page */
 .home {
   display: flex;
   align-items: center;
@@ -66,7 +65,7 @@ nav ul a:hover {
   border: 3px solid #333;
 }
 
-/* ABOUT */
+/* about page */
 .about {
   display: flex;
   flex-direction: column;
@@ -96,7 +95,7 @@ nav ul a:hover {
   text-align: left;
 }
 
-/* CONTACT */
+/* contact page */
 .contact {
   display: flex;
   flex-direction: column;
@@ -106,20 +105,20 @@ nav ul a:hover {
   min-height: 80vh;
   text-align: center;
 }
- 
+
 .contact h2 {
   color: #667B68;
   font-size: 1.8rem;
   margin-bottom: 10px;
 }
- 
+
 .contact a {
   color: #222;
   font-weight: bold;
   text-decoration: underline;
 }
 
-/* PLACEHOLDER (Projects / Resume) */
+/* resume page */
 .resume {
   display: flex;
   flex-direction: column;
@@ -143,17 +142,17 @@ nav ul a:hover {
   border: 3px solid #333;
 }
 
-/* PROJECTS PAGE */
+/* project page */
 .projects-page {
   max-width: 700px;
   margin: 0 auto;
   padding: 40px 24px;
 }
- 
+
 .project-section {
   margin-bottom: 40px;
 }
- 
+
 .project-section h2 {
   color: #667B68;
   font-size: 1.3rem;
@@ -162,54 +161,54 @@ nav ul a:hover {
   border-bottom: 1px solid #ccc;
   padding-bottom: 6px;
 }
- 
+
 .project-section p {
   font-size: 0.9rem;
   line-height: 1.6;
   margin-bottom: 14px;
 }
- 
+
 .project-section img {
   display: block;
   margin: 0 auto 16px auto;
   max-width: 100%;
   width: 320px;
-    border: 3px solid #333;
+  border: 3px solid #333;
   border-radius: 10px;
 }
- 
+
 .project-section .two-imgs {
   display: flex;
   gap: 12px;
   justify-content: center;
   margin-bottom: 16px;
 }
- 
+
 .project-section .two-imgs img {
   width: 48%;
   margin: 0;
   border: 3px solid #333;
   border-radius: 10px;
 }
- 
+
 .project-section a {
   color: #222;
   font-size: 0.9rem;
   text-decoration: underline;
 }
 
-/* PROJECTS GRID PAGE */
+/* gridding for project page */
 .projects-grid-page {
   padding: 80px 40px;
 }
- 
+
 .projects-grid {
   display: flex;
   gap: 24px;
   justify-content: center;
   flex-wrap: wrap;
 }
- 
+
 .project-card {
   background-color: #DDE6D5;
   border: 2px solid #333;
@@ -218,7 +217,7 @@ nav ul a:hover {
   padding: 20px;
   box-sizing: border-box;
 }
- 
+
 .card-img {
   background-color: #DDE6D5;
   border-radius: 8px;
@@ -229,7 +228,7 @@ nav ul a:hover {
   align-items: center;
   justify-content: center;
 }
- 
+
 .card-img img {
   width: 100%;
   height: 100%;
@@ -237,7 +236,7 @@ nav ul a:hover {
   border-radius: 6px;
   border: 1px solid #aaa;
 }
- 
+
 .card-title {
   font-size: 1.1rem;
   font-weight: bold;
@@ -263,4 +262,165 @@ nav ul a:hover {
 .project-section a:hover {
   color: #4a6550;
   text-decoration: underline;
+}
+
+/* resizing for tablet */
+@media (max-width: 768px) {
+  nav {
+    flex-wrap: wrap;
+    padding: 20px 24px;
+    gap: 12px;
+  }
+
+  nav ul {
+    gap: 20px;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .home {
+    flex-direction: column;
+    padding: 40px 24px;
+    gap: 32px;
+    text-align: center;
+  }
+
+  .home h1 {
+    font-size: 2.2rem;
+  }
+
+  .home img {
+    width: 55vw;
+    max-width: 300px;
+    height: auto;
+    align-self: center;
+  }
+
+  .about {
+    padding: 60px 24px;
+  }
+
+  .about h2 {
+    font-size: 2.2rem;
+  }
+
+  .about img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about p {
+    max-width: 100%;
+  }
+
+  .contact {
+    padding: 40px 24px;
+    gap: 40px;
+  }
+
+  .resume img {
+    width: 80%;
+    max-width: 320px;
+    height: auto;
+  }
+
+  .projects-grid-page {
+    padding: 60px 24px;
+  }
+
+  .project-card {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+/* resizing for mobile */
+@media (max-width: 480px) {
+  nav {
+    padding: 16px 20px;
+    gap: 10px;
+  }
+
+  nav .brand {
+    font-size: 1.1rem;
+  }
+
+  nav ul {
+    gap: 14px;
+    justify-content: flex-start;
+  }
+
+  nav ul a {
+    font-size: 0.85rem;
+  }
+
+  .home {
+    padding: 32px 20px;
+  }
+
+  .home h1 {
+    font-size: 1.8rem;
+  }
+
+  .home img {
+    width: 50vw;
+    max-width: 220px;
+    height: auto;
+    align-self: center;
+  }
+
+  .about {
+    padding: 40px 20px;
+  }
+
+  .about h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+
+  .contact {
+    padding: 32px 20px;
+    gap: 28px;
+    min-height: unset;
+  }
+
+  .contact h2 {
+    font-size: 1.4rem;
+  }
+
+  .resume {
+    padding: 40px 20px;
+    min-height: unset;
+  }
+
+  .resume h2 {
+    font-size: 1.6rem;
+  }
+
+  .resume img {
+    width: 75%;
+    max-width: 260px;
+    height: auto;
+  }
+
+  .projects-page {
+    padding: 32px 20px;
+  }
+
+  .projects-grid-page {
+    padding: 40px 20px;
+  }
+
+  .project-section .two-imgs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-section .two-imgs img {
+    width: 100%;
+  }
+
+  .project-card {
+    width: 100%;
+  }
 }
