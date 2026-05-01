@@ -55,6 +55,7 @@ nav ul a:hover {
 
 .home p {
   font-weight: bold;
+  line-height: 1.5;
 }
 
 .home img {
@@ -63,6 +64,27 @@ nav ul a:hover {
   object-fit: cover;
   border-radius: 10px;
   border: 3px solid #333;
+}
+
+.home > div:first-child {
+  max-width: 700px;
+}
+
+.projects-btn {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 12px 24px;
+  background-color: #667B68;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 0.95rem;
+  transition: background-color 0.2s;
+}
+
+.projects-btn:hover {
+  background-color: #4a6550;
 }
 
 /* about page */
@@ -262,6 +284,34 @@ nav ul a:hover {
 .project-section a:hover {
   color: #4a6550;
   text-decoration: underline;
+}
+
+/* itis 4390 page */
+html {
+  scroll-behavior: smooth;
+}
+
+.section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.section-nav a {
+  padding: 10px 18px;
+  background-color: #667B68;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.section-nav a:hover {
+  background-color: #4a6550;
+  color: white;
 }
 
 /* resizing for tablet */
